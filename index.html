@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Scrolling Prototype</title>
+	<link rel="stylesheet" href="style.css" media="screen">
+	<script src="jquery-1.5.1.js"></script>	
+	<script src="jquery.inview.js"></script>
+	<script src="site.js"></script>
+</head>
+<body>
+	<div id="info"></div>
+	<ul id="scrolling-content">
+		<li id='first-section'>
+			<nav class='menu'>
+				<div>
+					<ul>
+						<li><a href='#first-section' class='current'>First Nav Link</a></li>
+						<li><a href='#second-section'>Second Nav Link</a></li>
+						<li><a href='#third-section'>Third Nav Link</a></li>
+						<li><a href='#fourth-section'>Fourth Nav Link</a></li>
+						<li><a href='#fifth-section'>Fifth Nav Link</a></li>					
+					</ul>
+				</div>
+			</nav>
+			<div class='content'>
+				<h1>First Section</h1>
+				<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla.</p>
+
+				<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+</p>
+
+				<p>Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum.</p>
+
+				<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+
+				<p>Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper.</p>
+
+				<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor. Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+				<p>Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+
+				<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+			</div>
+		</li>
+
+		<li id='second-section'>
+			<nav class='menu'>
+				<div>
+					<ul>
+						<li><a href='#first-section'>First Nav Link</a></li>
+						<li><a href='#second-section' class='current'>Second Nav Link</a></li>
+						<li><a href='#third-section'>Third Nav Link</a></li>
+						<li><a href='#fourth-section'>Fourth Nav Link</a></li>
+						<li><a href='#fifth-section'>Fifth Nav Link</a></li>					
+					</ul>
+				</div>
+			</nav>
+			<div class='content'>
+				<h1>Second Section</h1>
+				<p>Sed posuere consectetur est at lobortis. Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Vestibulum id ligula porta felis euismod semper. Etiam porta sem malesuada magna mollis euismod.
+</p>
+
+				<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla.</p>
+
+				<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+</p>
+
+				<p>Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum.</p>
+
+				<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+
+				<p>Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper.</p>
+
+				<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor. Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+				<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+</p>
+
+				<p>Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum.</p>
+
+				<p>Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+
+				<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+			</div>
+		</li>
+
+		<li id='third-section'>
+			<nav class='menu'>
+				<div>
+					<ul>
+						<li><a href='#first-section'>First Nav Link</a></li>
+						<li><a href='#second-section'>Second Nav Link</a></li>
+						<li><a href='#third-section' class='current'>Third Nav Link</a></li>
+						<li><a href='#fourth-section'>Fourth Nav Link</a></li>
+						<li><a href='#fifth-section'>Fifth Nav Link</a></li>					
+					</ul>
+				</div>
+			</nav>
+			<div class='content'>
+				<h1>Third Section</h1>
+
+				<p>Sed posuere consectetur est at lobortis. Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Vestibulum id ligula porta felis euismod semper. Etiam porta sem malesuada magna mollis euismod.
+</p>
+
+				<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla.</p>
+
+				<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+</p>
+
+				<p>Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum.</p>
+
+				<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+
+				<p>Sed posuere consectetur est at lobortis. Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Vestibulum id ligula porta felis euismod semper. Etiam porta sem malesuada magna mollis euismod.
+</p>
+
+				<p>Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper.</p>
+
+				<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor. Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+				<p>Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+
+				<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+			</div>
+		</li>
+
+		<li id='fourth-section'>
+			<nav class='menu'>
+				<div>
+					<ul>
+						<li><a href='#first-section'>First Nav Link</a></li>
+						<li><a href='#second-section'>Second Nav Link</a></li>
+						<li><a href='#third-section'>Third Nav Link</a></li>
+						<li><a href='#fourth-section' class='current'>Fourth Nav Link</a></li>
+						<li><a href='#fifth-section'>Fifth Nav Link</a></li>					
+					</ul>
+				</div>
+			</nav>
+			<div class='content'>
+				<h1>Fourth Section</h1>
+
+				<p>Sed posuere consectetur est at lobortis. Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Vestibulum id ligula porta felis euismod semper. Etiam porta sem malesuada magna mollis euismod.
+</p>
+
+				<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla.</p>
+
+				<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+</p>
+
+				<p>Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum.</p>
+
+				<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+
+				<p>Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper.</p>
+
+				<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor. Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+				<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+			</div>
+		</li>
+
+		<li id='fifth-section'>
+			<nav class='menu'>
+				<div>
+					<ul>
+						<li><a href='#first-section'>First Nav Link</a></li>
+						<li><a href='#second-section'>Second Nav Link</a></li>
+						<li><a href='#third-section'>Third Nav Link</a></li>
+						<li><a href='#fourth-section'>Fourth Nav Link</a></li>
+						<li><a href='#fifth-section' class='current'>Fifth Nav Link</a></li>					
+					</ul>
+				</div>
+			</nav>
+			<div class='content'>
+				<h1>Fifth Section</h1>
+
+				<p>Sed posuere consectetur est at lobortis. Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Vestibulum id ligula porta felis euismod semper. Etiam porta sem malesuada magna mollis euismod.
+</p>
+
+				<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla.</p>
+
+				<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+</p>
+
+				<p>Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum.</p>
+
+				<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+
+				<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+			</div>
+		</li>
+
+	</ul>
+
+</body>
+</html>

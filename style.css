@@ -1,0 +1,240 @@
+/* @override 
+	http://localhost:8002/style.css
+	http://localhost:8001/style.css
+*/
+
+/* @group HTML5 Reset */
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* @end */
+
+body{
+	font: 16px/20px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+h1{
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	line-height: 24px;
+}
+
+p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* @group Scrolling Content */
+
+ul#scrolling-content{
+	background: #FCF;
+	overflow: hidden;
+}
+
+ul#scrolling-content>li{
+	background: #FFF;
+	float: left;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+
+ul#scrolling-content>li:nth-child(1){
+	background: #FAA;
+}
+
+ul#scrolling-content>li:nth-child(1) .menu ul{
+	background: #F88;
+}
+
+ul#scrolling-content>li:nth-child(2){
+	background: #AAA;
+}
+
+ul#scrolling-content>li:nth-child(2) .menu ul{
+	background: #888;
+}
+
+ul#scrolling-content>li:nth-child(3){
+	background: #AAF;
+}
+
+ul#scrolling-content>li:nth-child(3) .menu ul{
+	background: #88F;
+}
+
+ul#scrolling-content>li:nth-child(4){
+	background: #AFA;
+}
+
+ul#scrolling-content>li:nth-child(4) .menu ul{
+	background: #8F8;
+}
+
+ul#scrolling-content>li:nth-child(5){
+	background: #AFF;
+}
+
+ul#scrolling-content>li:nth-child(5) .menu ul{
+	background: #8FF;
+}
+
+div#info{
+	background: #000;
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	z-index: 10000;
+	color: #FFF;
+	font-size: 10px;
+	width: 200px;
+}
+
+div#info div{
+	-webkit-transition: background-color 120ms linear;
+	padding: 2px 10px;
+}
+
+div#info div.top-visible,
+div#info div.bottom-visible{
+	background: #333;
+}
+
+div#info div.top-visible.bottom-visible{
+	background: #555;
+}
+
+ul#scrolling-content>li nav.menu{
+	position: fixed;
+	top: 0;
+	left: 10px;
+	width: 255px;
+	overflow: hidden;
+}
+
+ul#scrolling-content.scrolly-time>li nav.menu div{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+ul#scrolling-content.scrolly-time>li nav.menu ul{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+ul#scrolling-content>li{
+	overflow: hidden;
+}
+
+ul#scrolling-content>li .content{
+	width: 680px;
+	margin-left: 275px;
+}
+
+/* @end */
+
